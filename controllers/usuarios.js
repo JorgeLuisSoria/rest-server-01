@@ -1,6 +1,6 @@
 
 const { response, request } = require('express');
-
+// TODO:Ampliar en futuros proyectos de prueba
 const usuariosGet = (req = request, res = response) => {
 
     const { q, nombre = 'No name', apikey, page = '1', limit } = req.query
